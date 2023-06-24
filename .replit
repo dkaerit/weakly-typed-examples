@@ -1,0 +1,6 @@
+run = "python PS2/main.py -f main.psc"
+
+hidden = ["PS2"]
+
+[nix]
+channel = "stable-21_11"
