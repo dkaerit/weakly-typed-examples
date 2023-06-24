@@ -3,7 +3,7 @@ from threading import Thread
 
 shared_variable = 'task1&2: '
 
-# Tarea 1: Utilizando mutex y condición de variable compartida
+# Tarea 1: Utilizando mutex y condición de variable compartida.
 def task1():
     time.sleep(2)
     global shared_variable
