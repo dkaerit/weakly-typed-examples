@@ -39,6 +39,4 @@ Promise.all([promise1, promise2]).then(() => {
   console.log(shared_variable);
 });
 
-Promise.all([promise3, promise4]).then(() => {
-  console.log('Todas las tareas finalizadas.');
-});
+Promise.all([promise3, promise4]).then(() => {});
